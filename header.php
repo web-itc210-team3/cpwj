@@ -42,7 +42,7 @@
 			endif; ?>
 		</div><!-- .site-branding -->
 
-		<nav id="site-navigation" class="main-navigation" style="background-color: red; width: 200px; height: 200px;">
+		<nav id="site-navigation" class="main-navigation">
 			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'cpwj' ); ?></button>
 			<?php
 				wp_nav_menu( array(
